@@ -20,19 +20,19 @@ setup(
     # download_url='https://github.com/cleitonleonel/pyquotex/archive/v_1.0.0.tar.gz',
     keywords=['SOME', 'MEANINGFULL', 'KEYWORDS'],
     install_requires=[
-        'setuptools',
-        "certifi",
-        "greenlet",
-        "pyOpenSSL",
-        "pytz",
-        "requests-toolbelt",
-        'requests',
-        'beautifulsoup4',
-        'websocket-client',
-        'playwright',
-        'playwright-stealth',
-        'pyfiglet',
-        'numpy'
+        'setuptools==70.2.0', # Need to install setuptools
+        "certifi==2023.7.22", # Need to install certifi
+        # "greenlet",
+        # "pyOpenSSL",
+        # "pytz",
+        # "requests-toolbelt",
+        'requests==2.31.0', # Need to install requests
+        'beautifulsoup4==4.12.2', # Need to install beautifulsoup4
+        'websocket-client==1.8.0', # Need to install websocket-client
+        'playwright==1.44.0', # Need to install playwright==1.44.0
+        'playwright-stealth==1.0.6', # Need to install playwright-stealth
+        'pyfiglet==1.0.2', # Need to install pyfiglet
+        # 'numpy'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
